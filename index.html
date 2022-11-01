@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple ToDo app</title>
+    <script src="https://kit.fontawesome.com/89476d4125.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h2 class="title">Simple ToDo</h2>
+
+    <div class="container">
+
+        <div class="container_child">
+            <h4>Add Task</h4>
+            <div class="div_input">
+                <input class="input_field" type="text" name="input" placeholder="type new task here...">
+                <button class="addBtn">Add task</button>
+            </div>
+        </div>
+        <div class="container_child">
+            <h4>Tasks:</h4>
+            <ul class="list">
+            </ul>
+        </div>
+
+    </div>
+    <div class="removed">
+        <h4>Finished or Deleted Tasks:</h5>
+            <p class="tag">Finished tasks</p>
+            <p class="tag">Deleted task</p>
+            <div class="removedList">
+                <ul class="finishedList">
+                </ul>
+            </div>
+            <div class="removedList">
+                <ul class="deletedList">
+                </ul>
+            </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
